@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Código Secreto!</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<img class="projetoONE" src="logoONE.png" alt="Logo da ONE">
+		</header> 
+		<main>
+	        <section>
+	            <textarea class="text-area" cols="30" rows="5" placeholder="Digite seu texto aqui"></textarea>
+
+			    <div class="atencao">
+	                <h6>Atenção: Apenas letras minúsculas e sem acento</h6>
+	            </div>
+
+	            <div class="botoes">
+		            <button class="btn-criptografar" onclick="btnEncriptar()">Criptografar</button>
+		            <button class="btn-descriptografar" onclick="btnDesencriptar()">Descriptografar</button>
+		        </div>           
+	        </section>
+
+	        <section>
+	        	<div>
+	            <textarea class="mensagem" cols="15" rows="8"></textarea>	
+	            <button class="btn-copiar" onclick="btnCopiar()">Copiar</button>
+	        	</div>
+	        </section>
+	    </main>
+	    <script src="java.js"></script>
+	</body>
+	
+
+<footer>	
+	<p>Desenvolvido por Gabriela Britto</p>
+	<img class="OracleAlura" src="OracleAlura.png" alt="Logo da Oracle + Alura">
+</footer>
+
+
+</html>
